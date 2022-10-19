@@ -7,5 +7,5 @@ var a=10;
  //using ternary's result as a value  of variable
  var b;
  b= (a == 10)? 5 : 0
-document.write(b,"if it was unmatched b was not exist<br>");
+document.write(b," if it was unmatched b was not exist<br>");
 document.write("console is best friend of JavaScript");
