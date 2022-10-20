@@ -1,1 +1,1 @@
-document.write("thisfile is not used in fourteenth html");
+document.write("this file is not used in fourteenth html");
