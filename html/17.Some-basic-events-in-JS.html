@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some Basic Events</title>
+</head>
+<body onkeypress="press()//works only in body and forms" onresize="rsz()//works only in body" onscroll="scr()//works only in body">
+    <h3>list of some events</h3>
+    <ul>
+        <li>click(onclick)</li>
+        <li>double click(ondblclick)</li>
+        <li>right click(oncontextmenu)</li>
+        <li>mouse hover(onmouseenter)</li>
+        <li>mouse out(onmouseout)</li>
+        <li>mouse up(onmouseup)</li>
+        <li>mouse down(onmousedown)</li>
+        <li>key press(onkeypress)</li>
+        <li>key up(onkeyup)</li>
+        <li>resize(onresize)</li>
+        <li>load(onload)</li>
+        <li>unload(onunload)</li>
+        <li>scroll(onscroll)</li>
+    </ul>
+        <button onclick="clicked()">click on me</button><br>
+        <button ondblclick="dblclicked()">double click on me</button><br>
+        <button oncontextmenu="rgtclick()">right click on me</button><br>
+        <button onmouseenter="hover()" onmouseout="out()">hover and out</button><br>
+        <button onmousedown="down()" onmouseup="up()">hold click and dismantle </button><br>
+        press any key <br>
+        resize the webpage <br>
+        now scroll
+        <br>
+        <br><br>
+
+        <script>
+            var a;
+        function clicked(){
+            alert("u got first hint")
+        }
+        function dblclicked(){
+            alert("u got secong hint")
+        }
+        function rgtclick(){
+            alert("u got third hint")
+        }
+        function hover(){
+            a = ("you are half way");
+            alert(a)
+        }
+        function out(){
+            a = ("more than half way dude");
+            alert(a)
+        }
+        function up(){
+            alert("annoyed by alerts??")
+        }
+        function press(){
+            alert("wait will worth it")
+        }
+        function rsz(){
+            alert("you are close")
+        }
+        function scr(){
+            document.write("congrats you are fvrt of salam chhipa")
+        }
+        </script>
+    
+</body>
+</html>
