@@ -1,0 +1,13 @@
+let array1 =["salam","tak","chhipa"];
+document.write("lets create an array :",array1);
+let array2 = array1.toString();
+document.write("<br>we are converting it into a string :",array1);
+document.write("<br>now lets check if this is an array by isArray method");
+let b = Array.isArray(array2);
+document.write("<br>",b,"<hr>");
+document.write("fill method changes main array <br>it is use to fill a certain element<br> in an array<br> syntax is <br>array.fill('element to fill',start,end)<br>");
+array2 = [1,2,3,4,5,6,7];
+document.write("example array : ",array2);
+document.write("<br>lets fill 0 from index 2 to 5");
+array2.fill(0,2,6);
+document.write("<br>filled array is : ",array2);
